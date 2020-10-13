@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Renewable Energy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Renewable Energy
+            <!-- <img class="nav-ufo" src="static/images/ufo.svg"> -->
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="hero text-center">
+      <h1>Renewable Energy</h1>
+      
+    </div>
+    <div class="container">
+
+
+
+        <div>
+            <p>
+                <div class='col-md-6' style="text-align: center;">
+                    <h4>
+
+                    </h4>
+                    <h4>{{ (energy_html and energy_html.Country) or "No data found yet" }}</h4>
+                    <h4>{{ (energy_html.Year)  }}</h4>
+                    <h4>{{ (energy_html.Solar)  }}</h4>
+                    <h4>{{ (energy_html.Wind)  }}</h4>
+                    <h4>{{ (energy_html.Hydro)  }}</h4>
+                    <br>
+                </div>
+                
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
