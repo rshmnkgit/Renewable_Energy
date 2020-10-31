@@ -1,0 +1,6 @@
+config.py
+config.js
+.vscode
+_pycache_/
+notebook/_pycache_/
+notebook/.ipynb_checkpoints
